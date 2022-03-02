@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"stevee/newToken.sol": "IDEXFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"stevee/newToken.sol": {
+			"keccak256": "0x25a4ef86aaec9edd340e466f64c1ffb9c11a0a8de04a2127829ea74fd18ad63a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://668b0532eb8619bc12f05a1be86fcb626e31290ecb7f5648b9f8682c86ca1418",
+				"dweb:/ipfs/Qma4qHAuDUp9DK2JfmWPXuHAM8snQTndsap8EoXWsZMdda"
+			]
+		}
+	},
+	"version": 1
+}
